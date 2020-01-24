@@ -9,7 +9,7 @@ This project can be used as starting point for any other project.
 ## Middleware
 
  This project requires FreeRTOS 10+
- > I have not tested with other versions, but it should work fine once the used API functions are available.
+ > I have not tested with other versions, but it should work fine whenever the used API functions are available.
 
 ## Adding the console to your own project
 
@@ -69,10 +69,6 @@ Each command is associated with a callback function that will be called with the
 - Line break (output):	LF '\n' (ASCII: 10)
 - Line break (input):		LF '\n' (ASCII: 10)
 - Allowed in input:		ASCII 32 up to ASCII 126 or LF
-
-## Rename a file
-
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
 ## Console data flow
 ```c
